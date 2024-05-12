@@ -1,0 +1,548 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+  margin-bottom: -15px;
+    background-color: #000000;
+    color: #fff;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav ul {
+    margin-right: -80px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+  font-size: 18px;
+  margin-top: -30px;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #ccc;
+  }
+ .btn1{
+    color: #074807;
+  }
+  nav .btn2{
+    margin-right: -20px;
+  border-radius: 10px;
+  border: 1px solid #FFFFFF;
+  background: linear-gradient(90deg, #07DA07, #0B430B);
+  display: flex;
+  text-align: center;
+  padding: 8px 0.5px 5px -5px;
+padding-left: 7px;
+  width: 100px;
+  box-sizing: border-box;
+
+  }
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .logo img{
+    margin-top: -20px;
+    width: 107px;
+    height: 107px;
+  }
+
+  .hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #000000;
+    height: 96vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(243, 236, 236);
+    text-align: center;
+  }
+  
+  .hero-content {
+    margin-left: 80px;
+    max-width: 800px;
+  }
+  .hero-content h1 span {
+    color:#49B649;
+  }
+.hero h1 {
+  margin-left: 10px;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+ }
+  
+.hero p {
+    margin-left: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+  
+.button {
+    background:linear-gradient(to right,#07E807,#0C310C);
+    color: #fcf5f5;
+    padding: 1rem 2rem;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.2s ease;
+}
+  
+.button:hover {
+    background-color: #094006;
+}
+.img_r{
+  margin-top: 360px;
+  margin-left: -100px;
+  float:right;
+}
+
+.img_r2{
+margin-left: -758px;
+margin-bottom: -6.5px;
+}
+#about-us {
+  height: 80vh;
+    padding: 50px;
+    background-color: #000000;
+    text-align: center;
+}
+
+#about-us h1 {
+  margin-top: 30px;
+    color: #f7efef;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+#about-us span {
+  color: #49B649;
+}
+#about-us p {
+    color: #e5dada;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.frame-23 {
+  margin: 0 2px 119px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.service-tips {
+  background: url('service_tips.png') 50% / contain no-repeat;
+  margin: 0 0 9px 0.2px;
+  width: 100px;
+  height: 100px;
+}
+.save-money {
+  margin-bottom: 9px;
+  overflow-wrap: break-word;
+  font-family: 'Nunito Sans';
+  font-weight: 600;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+.save-money {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.333;
+}
+.invest-in-trasave-securily-for-future {
+  margin: 0 2.8px 0 3px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Nunito Sans';
+  font-weight: 600;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.frame-10 {
+  margin-top: 30px;
+  margin-right: 161.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.wedding-gift {
+  background: url('wedding_gift.png') 50% / contain no-repeat;
+  margin: 0 0 9px 0.4px;
+  width: 100px;
+  height: 100px;
+}
+ .earn-rewards {
+  margin-bottom: 9px;
+  overflow-wrap: break-word;
+  font-family: 'Nunito Sans';
+  font-weight: 600;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+.earn-rewards {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.333;
+}
+ .earn-rewards-and-track-your-money {
+  margin: 0 12.4px 0 12.9px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Nunito Sans';
+  font-weight: 600;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+ .frame-6 {
+  margin-top: 30px;
+  border-radius: 50px;
+  margin-right: 158.9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.travel-agency {
+  background: url('travel_agency.png') 50% / contain no-repeat;
+  margin: 0 0px 9px 0;
+  width: 100px;
+  height: 100px;
+}
+.travel-global {
+  margin-bottom: 9px;
+  overflow-wrap: break-word;
+  font-family: 'Nunito Sans';
+  font-weight: 600;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+.travel-global-sub1 {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.333;
+}
+.use-this-money-for-your-travelling {
+  margin: 0 7.1px 0 7px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Nunito Sans';
+  font-weight: 600;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.frame-8 {
+  margin-top: 30px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.frame-23 {
+  margin: 0 0 144px 1.5px;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+  .rectangle-31 {
+    background: #49B649;
+    margin-bottom: 10px;
+    align-self: flex-start;
+    margin-top: -100px;
+    width: 147px;
+    height: 7px;
+  }
+   .save-your-travel-money-in-trasave-and-get-top-grade-security-with-us {
+    overflow-wrap: break-word;
+    font-family: 'Nunito Sans';
+    font-weight: 800;
+    font-size: 54px;
+    color: #FFFFFF;
+  }
+  .frame-31 {
+    margin: 230px 250.7px 0 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .there-are-so-many-benefits-of-travelling-with-trasave-not-only-do-we-provide-you-with-an-awesome-digital-travel-solution-an-awesome-travel-app-but-we-also-make-it-super-easy-and-fun-for-you-to-store-save-and-move-your-travel-money-as-well-as-saving-money-the-trasave-travel-fund-is-agood-way-to-track-your-travel-money-tracking-expenses-is-important-when-travelling-as-you-dont-want-to-be-stuck-in-the-middle-of-your-journey-budgeting-your-travel-we-created-the-travel-fund-so-you-can-store-all-your-travel-money-and-then-track-your-money-from-your-travel-fund-expense-tracker {
+    margin-top: 192px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Nunito Sans';
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+  }
+
+  .group-11 {
+    background: url('unsplash_ocr_pjce_6_gpk.jpeg') 50% / cover no-repeat;
+    position: relative;
+    margin-bottom: 91px;
+    display: flex;
+    flex-direction: row;
+    padding: 192px 104.2px 139px 108px;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  
+
+  .mask-group-1 {
+    margin-bottom: 20px;
+    align-self: flex-start;
+    width: 140px;
+    height: 146px;
+  }
+   .trasave-travel-fund-is-agood-way-to-track-your-travel-money {
+    overflow-wrap: break-word;
+    font-family: 'Nunito Sans';
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+  }
+  .frame-40 {
+    margin-right: 90.9px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .about {
+    margin-bottom: 20px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Nunito Sans';
+    font-weight: 800;
+    font-size: 28px;
+    color: #095809;
+  }
+  .technical-info {
+    margin: 0 15.6px 20px 4.1px;
+    margin-right: -10px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+  }
+  .other-products {
+    margin-left: 3.6px;
+    overflow-wrap: break-word;
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+  }
+  .frame-16 {
+    margin: 55px 92px 66px 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .contact-us-1 {
+    margin: 0 0.2px 20px 0.2px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Nunito Sans';
+    font-weight: 800;
+    font-size: 28px;
+    color: #053f05;
+  }
+  .bengaluru-india {
+    margin: 0 1.8px 20px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+  }
+  .container {
+    margin: 0 0.3px 20px 0.3px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+  }
+  .hrcurlistic-com {
+    margin-left: 0.2px;
+    overflow-wrap: break-word;
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+  }
+  .frame-15 {
+    margin: 55px 77.4px 13px 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .subscribe-newsletter {
+    font-family: 'Nunito Sans';
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 1.333;
+    color: #49B649;
+  }
+  .subscribe-newsletter {
+    margin-bottom: 17px;
+    overflow-wrap: break-word;
+    font-family: 'Nunito';
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 1.071;
+    color: #FFFFFF;
+  }
+  .subscribe-newsletter-sub14 {
+    font-family: 'Nunito Sans';
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 1.333;
+  }
+  .enter-your-email {
+    margin: 7px 12.5px 5px 0;
+    display: inline-block;
+    width: 243.4px;
+    overflow-wrap: break-word;
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-size: 18px;
+    color: #9D9D9D;
+  }
+  .subscribe {
+    overflow-wrap: break-word;
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+  }
+  .container-2 {
+    border-radius: 8px;
+    background: #49B649;
+    position: relative;
+    display: flex;
+    padding: 6px 16.5px;
+    box-sizing: border-box;
+  }
+  .group-12 {
+    border-radius: 8px;
+    background: #FFFFFF;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 11px 8px 11px 29.1px;
+    width: 408px;
+    box-sizing: border-box;
+  }
+  .frame-34 {
+    margin: 57px 0 95px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 408px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+   .container-3 {
+    margin-bottom: 128px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .copright-2022-curlistic-all-right-reserved {
+    margin-right: 8px;
+    overflow-wrap: break-word;
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+  }
+  .frame-131 {
+    background: url('unsplash_1_fx_met_2_u_5_du.jpeg') 50% / cover no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -91px;
+    padding: 16px 103px 24px 112px;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .saving-your-money-for-travel-through-travel-fund {
+    font-family: 'Nunito Sans';
+    font-weight: 900;
+    font-size: 54px;
+    letter-spacing: 2.2px;
+    line-height: 1.333;
+  }
+  .saving-your-money-for-travel-through-travel-fund {
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    left: 104.6px;
+    top: 333.2px;
+    overflow-wrap: break-word;
+    font-family: 'Nunito';
+    font-weight: 900;
+    font-size: 54px;
+    letter-spacing: 2.2px;
+    color: #FFFFFF;
+  }
+  .saving-your-money-for-travel-through-travel-fund-sub17 {
+    font-family: 'Playfair Display', 'Roboto Condensed';
+    font-weight: 900;
+    font-size: 54px;
+    letter-spacing: 2.2px;
+    line-height: 1.333;
+    color: #49B649;
+  }
+  
